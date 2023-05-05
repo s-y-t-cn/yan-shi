@@ -1,0 +1,1 @@
+import{_ as s,c as n,b as a,w as r,a as c,f as l,g as _,e as d}from"./index-ad53b69e.js";const i={},p=c("p",null,"抱歉，你无权访问该页面",-1),u=d(" 返回首页");function f(t,e){const o=l("el-button");return _(),n("div",null,[p,a(o,{type:"primary",size:"small",onClick:e[0]||(e[0]=m=>t.$router.push("/"))},{default:r(()=>[u]),_:1})])}const b=s(i,[["render",f]]);export{b as default};
