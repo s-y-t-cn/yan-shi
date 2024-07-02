@@ -1,1 +1,0 @@
-const e={audio:!1,video:{facingMode:"user"}};async function n(c){try{await navigator.mediaDevices.getUserMedia(e).then(function(a){c.srcObject=a,c.onloadedmetadata=function(){c.play()}}).catch(function(a){console.log(a.name+": "+a.message)})}catch(a){console.log(a)}}export{n as c};
